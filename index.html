@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Coffee Bean</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body id="whole-page">
+  
+    <header id="header">
+
+        <img id="header-img" src="https://www.w3schools.com/" hidden="true">
+
+        <img id="header-img2" src="./Images/The Coffe Bean3.jpg" alt="Coffee Bean Logo">
+
+        <a href="./index2.html" target="_blank">
+            <img id="header-img3" class="sign-in"src="./Images/cupiconblursignin.jpg" alt="small cup of coffee">
+        </a>
+
+        <nav id="nav-bar">
+            <a href="#form" class="nav-link">Form</a>
+            <a href="#video" class="nav-link">Video</a>
+            <a href="#bottom" class="nav-link">Contact</a>
+        </nav>
+
+    </header>
+    
+    <div id="beans">
+        <div id="jumpingbean1" class="jumpingbeans" alt="Picture of a Coffee Bean"></div>
+        <div id="jumpingbean2" class="jumpingbeans" alt="Picture of a Coffee Bean"></div>
+        <div id="jumpingbean3" class="jumpingbeans" alt="Picture of a Coffee Bean"></div>
+        <div id="jumpingbean4" class="jumpingbeans" alt="Picture of a Coffee Bean"></div>
+        <div id="jumpingbean5" class="jumpingbeans" alt="Picture of a Coffee Bean"></div>
+        <div id="jumpingbean6" class="jumpingbeans" alt="Picture of a Coffee Bean"></div>
+        <div id="jumpingbean7" class="jumpingbeans" alt="Picture of a Coffee Bean"></div>
+        <div id="jumpingbean8" class="jumpingbeans" alt="Picture of a Coffee Bean"></div>
+        <div id="jumpingbean9" class="jumpingbeans" alt="Picture of a Coffee Bean"></div>
+        <div id="jumpingbean10" class="jumpingbeans" alt="Picture of a Coffee Bean"></div>
+    </div>
+
+
+    <main>
+
+      
+        <div id="flex-container">
+
+            <video id="video" src="./Images/video (1).mp4" poster="./Images/pexels-marta-dzedyshko-2067628.jpg"
+                alt="Cup of Coffee" preload controls loop>
+
+                <p>
+                    Video of a Cup of Coffee Being Made
+                </p>
+
+            </video>
+
+            <form id="form" action="/https://www.freecodecamp.com/email-submit">
+
+                <div id="input-form">
+
+
+                    <h2 id="free">FREE Coffee For Your BIRTHDAY!</h2>
+
+                    <div id="checkboxes"></div>
+
+                    <label for="fullname">
+                        Name
+                        <input id="fullname" class="info" type="text" name="fullname" placeholder="Jane Doe" required
+                            tabindex="1"><br>
+                    </label>
+
+                    <label for="email">
+                        Email
+                        <input id="email" class="info" type="email" name="email" placeholder="jane@google.com" required
+                            tabindex="2">
+                    </label><br>
+
+                    <label for="birthmonth">
+                        When is Your Birthday
+                        <input id="birthmonth" class="info" type="number" name="birthmonth" min="1" max="12"
+                            placeholder="Month" required tabindex="3">
+
+                        <input id="birthday" class="info" type="number" name="birthday" placeholder="Day" min="1"
+                            max="31" required tabindex="4">
+
+                    </label><br>
+
+                    <fieldset id="favcoffee">
+
+                        <legend>Favorite Coffee</legend>
+
+                        <label for="latte">
+                            <input id="latte" type="radio" name="favorite" value="latte" checked>
+                            Latte
+                        </label><br>
+
+                        <label for="mocha">
+                            <input id="mocha" type="radio" name="favorite" value="Mocha">
+                            Mocha
+                        </label><br>
+
+                        <label for="espresso">
+                            <input id="espresso" type="radio" name="favorite" value="espresso">
+                            Espresso
+                        </label><br>
+
+                        <label for="regular">
+                            <input id="regular" type="radio" name="favorite" value="regular">
+                            Regular Cup of Joe<br>
+                        </label>
+
+                        <label for="custom">
+                            Custom Order<br>
+
+                            <textarea id="custom" name="favorite" rows="3" columns="8" width="60px"></textarea>
+
+                        </label><br>
+
+                        <input id="submit" type="submit" value="submit">
+
+                    </fieldset>
+
+                </div>
+
+            </form>
+            
+        </div>    
+
+    </main>
+
+
+    <footer id="bottom">
+        <div id="footer-contact">
+            <p>
+                (928) 555-5555 <br>
+                123 Any Street <br>
+                Anytown, AZ 86636 <br>
+                <a href="mailto:thecoffebean@gmail.com" id="email-link"> thecoffeebean@gmail.com</a>
+            </p>
+
+        </div>
+
+        <p style="text-align:center">
+            <a href="#header" id="top-link">
+                Back to the Top</a>
+        </p>
+
+        <a href="./index2.html" target="_blank">
+            <img id="bottom-img3" class="sign-in" src="./Images/cupiconblursignin.jpg" alt="small cup of coffee">
+        </a>
+
+
+    </footer>
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+<script src="pcc-userstory-tests.js"></script>
+
+
+</html>
